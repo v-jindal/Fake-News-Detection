@@ -1,46 +1,68 @@
-# 📰 Fake News Detection System
+# 📰 Fake News Detection System  
+### 🚀 Machine Learning + NLP Powered News Classifier
 
-An intelligent Machine Learning-based system that detects whether a news article is **REAL** or **FAKE** using Natural Language Processing (NLP) techniques.
+An intelligent **Machine Learning-based Fake News Detection System** that classifies news articles as **REAL** or **FAKE** using advanced Natural Language Processing (NLP) techniques.
 
-Built using Python and Scikit-learn, this project applies text preprocessing and classification models to analyze news content with high accuracy.
-
----
-
-## 🚀 Live Repository
-
-🔗 https://github.com/v-jindal/fake-news-detection
+This project demonstrates practical implementation of text preprocessing, TF-IDF feature extraction, and supervised ML classification models to solve real-world misinformation problems.
 
 ---
 
-## 📌 Features
+## 🔗 Repository
 
-✔ Text Cleaning & Preprocessing  
-✔ Stopword Removal  
-✔ TF-IDF Vectorization  
-✔ Machine Learning Classification  
-✔ Accuracy Evaluation  
-✔ Simple & Scalable Code Structure  
+👉 https://github.com/v-jindal/fake-news-detection
 
 ---
 
-## 🛠 Tech Stack
+## ✨ Key Highlights
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- NLTK
-- Matplotlib
+✅ End-to-End NLP Pipeline  
+✅ TF-IDF Feature Engineering  
+✅ Logistic Regression Model Implementation  
+✅ Clean & Modular Code Structure  
+✅ High Accuracy Text Classification  
+✅ Ready for Deployment & Scaling  
 
 ---
 
-## 🧠 Machine Learning Workflow
+## 🧠 Machine Learning Model Used
 
-1. Load Dataset  
-2. Clean and preprocess text data  
-3. Convert text to numerical format using TF-IDF  
-4. Train ML model (Logistic Regression / Naive Bayes)  
-5. Evaluate performance using accuracy score  
+### 📌 Logistic Regression (Primary Model)
+
+Why Logistic Regression?
+- Works efficiently with high-dimensional sparse data (like TF-IDF)
+- Fast training time
+- Strong baseline for text classification
+- Interpretable results
+
+You can also experiment with:
+- Naive Bayes
+- Support Vector Machine (SVM)
+- Random Forest
+
+---
+
+## ⚙️ Project Workflow
+
+1️⃣ Data Loading  
+2️⃣ Text Cleaning & Preprocessing  
+3️⃣ Stopword Removal (NLTK)  
+4️⃣ TF-IDF Vectorization  
+5️⃣ Train-Test Split  
+6️⃣ Model Training (Logistic Regression)  
+7️⃣ Accuracy & Performance Evaluation  
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools Used |
+|----------|------------|
+| Language | Python |
+| Data Processing | Pandas, NumPy |
+| NLP | NLTK |
+| Feature Extraction | TF-IDF (Scikit-learn) |
+| ML Model | Logistic Regression |
+| Visualization | Matplotlib |
 
 ---
 
@@ -57,7 +79,7 @@ fake-news-detection/
 
 ---
 
-## ⚙ Installation & Setup
+## 💻 Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
@@ -66,7 +88,7 @@ git clone https://github.com/v-jindal/fake-news-detection.git
 cd fake-news-detection
 ```
 
-### 2️⃣ Install Dependencies
+### 2️⃣ Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
@@ -84,32 +106,40 @@ python fake_news.py
 
 ## 📊 Model Performance
 
-The model achieves strong classification accuracy depending on dataset quality and preprocessing.
+✔ Strong classification accuracy  
+✔ Efficient handling of large text data  
+✔ Optimized for binary classification (REAL vs FAKE)
 
-You can improve performance by:
-- Hyperparameter tuning
-- Using advanced models
-- Adding deep learning approaches
-
----
-
-## 💡 Future Improvements
-
-- Deploy using Flask / Streamlit
-- Add Web Interface
-- Use Deep Learning (LSTM / BERT)
-- Model saving & loading
-- Real-time news detection API
+> Accuracy may vary depending on dataset quality and preprocessing techniques.
 
 ---
 
-## 👨‍💻 Author
+## 🚀 Future Enhancements
 
-**Vansh Jindal**  
+- Deploy as Web App (Flask / Streamlit)
+- Add Model Saving (.pkl)
+- Implement Deep Learning (LSTM / BERT)
+- Add Real-time News API
+- Create REST API for production usage
+
+---
+
+## 🎯 Real-World Applications
+
+- News verification platforms  
+- Social media misinformation detection  
+- Journalism research tools  
+- Content moderation systems  
+
+---
+
+## 👩‍💻 Author
+
+**Vanshika Jindal**  
 GitHub: https://github.com/v-jindal  
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Give it a star on GitHub ⭐  
+If you found this project useful, consider giving it a ⭐ on GitHub!

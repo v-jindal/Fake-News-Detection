@@ -1,5 +1,5 @@
-# 📰 Fake News Detection System  
-### 🚀 Machine Learning + NLP Powered News Classifier
+# Fake News Detection System  
+### Machine Learning + NLP Powered News Classifier
 
 An intelligent **Machine Learning-based Fake News Detection System** that classifies news articles as **REAL** or **FAKE** using advanced Natural Language Processing (NLP) techniques.
 
@@ -7,26 +7,26 @@ This project demonstrates practical implementation of text preprocessing, TF-IDF
 
 ---
 
-## 🔗 Repository
+## Repository
 
-👉 https://github.com/v-jindal/fake-news-detection
-
----
-
-## ✨ Key Highlights
-
-✅ End-to-End NLP Pipeline  
-✅ TF-IDF Feature Engineering  
-✅ Logistic Regression Model Implementation  
-✅ Clean & Modular Code Structure  
-✅ High Accuracy Text Classification  
-✅ Ready for Deployment & Scaling  
+https://github.com/v-jindal/fake-news-detection
 
 ---
 
-## 🧠 Machine Learning Model Used
+## Key Highlights
 
-### 📌 Logistic Regression (Primary Model)
+End-to-End NLP Pipeline  
+TF-IDF Feature Engineering  
+Logistic Regression Model Implementation  
+Clean & Modular Code Structure  
+High Accuracy Text Classification  
+Ready for Deployment & Scaling  
+
+---
+
+## Machine Learning Model Used
+
+### Logistic Regression (Primary Model)
 
 Why Logistic Regression?
 - Works efficiently with high-dimensional sparse data (like TF-IDF)
@@ -43,13 +43,13 @@ You can also experiment with:
 
 ## ⚙️ Project Workflow
 
-1️⃣ Data Loading  
-2️⃣ Text Cleaning & Preprocessing  
-3️⃣ Stopword Removal (NLTK)  
-4️⃣ TF-IDF Vectorization  
-5️⃣ Train-Test Split  
-6️⃣ Model Training (Logistic Regression)  
-7️⃣ Accuracy & Performance Evaluation  
+1️. Data Loading  
+2️. Text Cleaning & Preprocessing  
+3️. Stopword Removal (NLTK)  
+4️. TF-IDF Vectorization  
+5️. Train-Test Split  
+6️. Model Training (Logistic Regression)  
+7️. Accuracy & Performance Evaluation  
 
 ---
 
@@ -66,7 +66,7 @@ You can also experiment with:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 fake-news-detection/
@@ -79,16 +79,16 @@ fake-news-detection/
 
 ---
 
-## 💻 Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/v-jindal/fake-news-detection.git
 cd fake-news-detection
 ```
 
-### 2️⃣ Install Required Libraries
+### Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
@@ -96,7 +96,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Project
+## Run the Project
 
 ```bash
 python fake_news.py
@@ -104,7 +104,7 @@ python fake_news.py
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 ✔ Strong classification accuracy  
 ✔ Efficient handling of large text data  
@@ -114,7 +114,7 @@ python fake_news.py
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Deploy as Web App (Flask / Streamlit)
 - Add Model Saving (.pkl)
@@ -124,7 +124,7 @@ python fake_news.py
 
 ---
 
-## 🎯 Real-World Applications
+## Real-World Applications
 
 - News verification platforms  
 - Social media misinformation detection  
@@ -133,13 +133,11 @@ python fake_news.py
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Vanshika Jindal**  
 GitHub: https://github.com/v-jindal  
 
 ---
-
-## ⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub!

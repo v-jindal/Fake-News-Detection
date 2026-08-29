@@ -1,68 +1,69 @@
-# Fake News Detection System  
-### Machine Learning + NLP Powered News Classifier
+# Fake News Detection System
 
-An intelligent **Machine Learning-based Fake News Detection System** that classifies news articles as **REAL** or **FAKE** using advanced Natural Language Processing (NLP) techniques.
-
-This project demonstrates practical implementation of text preprocessing, TF-IDF feature extraction, and supervised ML classification models to solve real-world misinformation problems.
+A Machine Learning and Natural Language Processing (NLP) based application that classifies news articles as **Real** or **Fake**. The project demonstrates an end-to-end text classification pipeline, including data preprocessing, feature extraction, model training, and evaluation using supervised machine learning techniques.
 
 ---
 
-## Repository
+## Overview
 
-https://github.com/v-jindal/fake-news-detection
+The rapid spread of misinformation has made automated fake news detection an important real-world problem. This project uses Natural Language Processing (NLP) and Machine Learning to analyze textual content and predict whether a news article is genuine or misleading.
 
----
-
-## Key Highlights
-
-End-to-End NLP Pipeline  
-TF-IDF Feature Engineering  
-Logistic Regression Model Implementation  
-Clean & Modular Code Structure  
-High Accuracy Text Classification  
-Ready for Deployment & Scaling  
+The implementation follows a complete machine learning workflow—from cleaning raw text to training a classification model—and is designed to be modular, readable, and easy to extend.
 
 ---
 
-## Machine Learning Model Used
+## Features
 
-### Logistic Regression (Primary Model)
-
-Why Logistic Regression?
-- Works efficiently with high-dimensional sparse data (like TF-IDF)
-- Fast training time
-- Strong baseline for text classification
-- Interpretable results
-
-You can also experiment with:
-- Naive Bayes
-- Support Vector Machine (SVM)
-- Random Forest
+- Binary classification of news articles (Real/Fake)
+- Text preprocessing and cleaning using NLTK
+- TF-IDF feature extraction
+- Logistic Regression classifier
+- Model evaluation using standard performance metrics
+- Clean and modular project structure
+- Easily extendable with additional ML models
 
 ---
 
-## ⚙️ Project Workflow
+## Tech Stack
 
-1️. Data Loading  
-2️. Text Cleaning & Preprocessing  
-3️. Stopword Removal (NLTK)  
-4️. TF-IDF Vectorization  
-5️. Train-Test Split  
-6️. Model Training (Logistic Regression)  
-7️. Accuracy & Performance Evaluation  
-
----
-
-## 🛠️ Tech Stack
-
-| Category | Tools Used |
-|----------|------------|
+| Category | Technologies |
+|----------|--------------|
 | Language | Python |
 | Data Processing | Pandas, NumPy |
 | NLP | NLTK |
-| Feature Extraction | TF-IDF (Scikit-learn) |
-| ML Model | Logistic Regression |
+| Feature Engineering | TF-IDF Vectorizer (Scikit-learn) |
+| Machine Learning | Logistic Regression |
 | Visualization | Matplotlib |
+
+---
+
+## Project Workflow
+
+```
+Dataset
+   │
+   ▼
+Text Preprocessing
+   │
+   ▼
+Tokenization & Stopword Removal
+   │
+   ▼
+TF-IDF Vectorization
+   │
+   ▼
+Train-Test Split
+   │
+   ▼
+Model Training
+(Logistic Regression)
+   │
+   ▼
+Prediction
+   │
+   ▼
+Performance Evaluation
+```
 
 ---
 
@@ -71,32 +72,32 @@ You can also experiment with:
 ```
 fake-news-detection/
 │
-├── data/                  # Dataset files
-├── fake_news.py           # Main Python script
+├── data/
+│   └── Dataset files
+│
+├── fake_news.py
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## Installation & Setup
+## Installation
 
-### Clone the Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/v-jindal/fake-news-detection.git
 cd fake-news-detection
 ```
 
-### Install Required Libraries
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## Run the Project
+Run the project:
 
 ```bash
 python fake_news.py
@@ -104,40 +105,88 @@ python fake_news.py
 
 ---
 
-## Model Performance
+## Model
 
-✔ Strong classification accuracy  
-✔ Efficient handling of large text data  
-✔ Optimized for binary classification (REAL vs FAKE)
+This project uses **Logistic Regression** as the primary classification model.
 
-> Accuracy may vary depending on dataset quality and preprocessing techniques.
+Logistic Regression was selected because it:
+
+- Performs efficiently on high-dimensional sparse text data
+- Provides fast training and prediction
+- Serves as a strong baseline for text classification tasks
+- Produces interpretable results
+
+The project can also be extended to compare other classifiers such as:
+
+- Naive Bayes
+- Support Vector Machine (SVM)
+- Random Forest
+- XGBoost
+
+---
+
+## Evaluation
+
+The trained model is evaluated using standard classification metrics, including:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+Model performance depends on the dataset, preprocessing techniques, and feature engineering strategy.
 
 ---
 
 ## Future Enhancements
 
-- Deploy as Web App (Flask / Streamlit)
-- Add Model Saving (.pkl)
-- Implement Deep Learning (LSTM / BERT)
-- Add Real-time News API
-- Create REST API for production usage
+Some possible improvements include:
+
+- Deploy the model using Flask or Streamlit
+- Save trained models using Pickle or Joblib
+- Integrate transformer-based models such as BERT
+- Build a REST API for inference
+- Support real-time news classification using external news APIs
 
 ---
 
-## Real-World Applications
+## Applications
 
-- News verification platforms  
-- Social media misinformation detection  
-- Journalism research tools  
-- Content moderation systems  
+The system can be applied in several real-world scenarios, including:
+
+- News verification platforms
+- Social media content moderation
+- Journalism and media research
+- Educational demonstrations of NLP techniques
+- Misinformation detection systems
+
+---
+
+## Learning Outcomes
+
+Through this project, I gained practical experience with:
+
+- Natural Language Processing
+- Text preprocessing techniques
+- TF-IDF feature engineering
+- Supervised machine learning
+- Binary text classification
+- Model evaluation and performance analysis
+- Building modular and maintainable Python applications
 
 ---
 
 ## Author
 
-**Vanshika Jindal**  
-GitHub: https://github.com/v-jindal  
+**Vanshika Jindal**
+
+GitHub: https://github.com/v-jindal
+
+LinkedIn: https://linkedin.com/in/vanshika-jindal-b1b3b6272
 
 ---
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
+## License
+
+This project is intended for educational and learning purposes.
